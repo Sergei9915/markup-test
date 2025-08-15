@@ -160,7 +160,7 @@ body {
 
 .footer-content {
   font-size: 12px;
-  margin-bottom: 61px;
+  margin-top: 61px;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;

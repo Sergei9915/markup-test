@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.red-box {
+  width: 250px;
+  height: 200px;
+  background-color: red;
+  text-align: center;
+}
+
+.message-section {
+  background-color: brown;
+}
+
+.container {
+  width: 250px;
+  height: 200px;
+  background-color: rgba(227, 129, 30, 0.741);
+}

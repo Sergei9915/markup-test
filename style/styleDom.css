@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 10px;
+}
+
+.highlight {
+	background-color: yellow;
+	font-size: 40px;
+	width: 250px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.toggleBtn {
+	background-color: rgba(41, 172, 106, 0.884);
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.hidden {
+	font-size: 0;
+}
+
+.messageBox {
+	background-color: blue;
+	width: 250px;
+}
+
+.card-sector {
+	display: flex;
+	grid-gap: 10px;
+	background-color: #796c6c;
+}
+
+.changeColor {
+	background-color: red;
+}

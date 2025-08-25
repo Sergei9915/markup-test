@@ -144,3 +144,33 @@ function renderProducts(products) {
 renderProducts(productsArr);
 
 /* JS OBJECT #3 */
+
+function showMessage(text) {
+  const messageDiv = document.querySelector("#messages-text");
+  const elementP = document.createElement("p");
+
+  elementP.textContent = text;
+  elementP.style.backgroundColor = "yellow";
+
+  messageDiv.append(elementP);
+}
+
+showMessage("Hello Mike");
+
+/* JS OBJECT #4 */
+
+function addButton(label) {
+  const addBtn = document.createElement("button");
+  addBtn.textContent = label;
+
+  document.body.appendChild(addBtn);
+
+  addBtn.addEventListener("click", () => {
+    alert(label);
+  });
+}
+
+addButton("CLICK ME!");
+
+
+/* JS OBJECT #5 */

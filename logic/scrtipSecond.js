@@ -34,12 +34,9 @@ function incrementCount() {
   // count += 1;
 }
 incrementCount(); // 1
-console.log(count);
 incrementCount(); // 2
-console.log(count);
 incrementCount(); // 3
 incrementCount(); // 4
-console.log(count);
 
 /* #5 */
 
@@ -70,8 +67,6 @@ function sum() {
   let result = a + b;
 
   resultSpan.innerHTML = `= ${result}`;
-
-  console.log(result);
 }
 
 /* #8 */
@@ -85,7 +80,6 @@ function sum() {
 const infoDiv = document.querySelector("#info");
 const btnHidden = document.querySelector(".btn-hidden");
 btnHidden.addEventListener("click", () => {
-  console.log("Hello World");
   infoDiv.classList.remove("hidden");
   infoDiv.textContent = "You have opened the information!";
 });
@@ -190,3 +184,26 @@ function updateUserInfo(user) {
 setTimeout(() => {
   updateUserInfo(objUsers);
 }, 2000);
+
+/* ---  */
+
+const str = "see yoo afterr weekend";
+const words = str.split(" ");
+const wordsCapitalLetters = [];
+
+for (let i = 0; i < words.length; i++) {
+  const letters = words[i].split("");
+  let word = "";
+  for (let j = 0; j < letters.length; j++) {
+    if (j === 0) {
+      word += letters[0].toLocaleUpperCase();
+    } else {
+      word += letters[j];
+    }
+  }
+  wordsCapitalLetters.push(word);
+}
+
+const res = wordsCapitalLetters.join(" ");
+
+console.log(res); // See Yoo Afterr Weekend

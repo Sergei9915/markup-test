@@ -172,5 +172,21 @@ function addButton(label) {
 
 addButton("CLICK ME!");
 
-
 /* JS OBJECT #5 */
+
+const objUsers = {
+  email: "scriptjs@gmail.com",
+  phone: "+987654321",
+};
+
+function updateUserInfo(user) {
+  const email = document.querySelector("#user-email");
+  const phone = document.querySelector("#user-phone");
+
+  email.textContent = user.email;
+  phone.textContent = user.phone;
+}
+
+setTimeout(() => {
+  updateUserInfo(objUsers);
+}, 2000);

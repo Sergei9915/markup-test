@@ -215,3 +215,23 @@ function powerOfNumber(x, n) {
 }
 
 powerOfNumber(2.5, 3);
+
+/* additional task #5 */
+
+function searchDivisors(number) {
+  let arr = [];
+
+  for (let i = 0; i < number + 1; i++) {
+    let resultDivide = number / i;
+
+    if (Number.isInteger(resultDivide) === true) {
+      arr.push(i);
+    }
+  }
+
+  let result = arr.join(" ");
+
+  return console.log(result);
+}
+
+searchDivisors(12);

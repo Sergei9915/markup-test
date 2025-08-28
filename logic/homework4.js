@@ -148,3 +148,70 @@ for (let i = arr11.length; i > 0; i--) {
     console.log("#10", el);
   }
 }
+
+/* additional task #1 */
+
+function sumArr(number) {
+  let result = 0;
+
+  for (let key of String(number)) {
+    result += Number(key);
+  }
+
+  console.log("additional task #1", result);
+}
+
+sumArr(33412);
+
+/* additional task #2 */
+
+function reciprocalNumber(number) {
+  const srtingOfNumber = String(number);
+
+  let result = "";
+
+  for (let i = srtingOfNumber.length - 1; i >= 0; i--) {
+    result += srtingOfNumber[i];
+  }
+
+  console.log("additional task #2", +result);
+}
+
+reciprocalNumber(24567);
+
+/* additional task #3 Number of even numbers in the range */
+
+function evenNumbersInRange(a, b) {
+  let result = 0;
+
+  for (let i = a; i <= b; i++) {
+    if (i % 2 === 0) {
+      result += 1;
+    }
+  }
+
+  return console.log("additional task #3", result);
+}
+
+evenNumbersInRange(1, 10);
+
+/* additional task #4 */
+
+function powerOfNumber(x, n) {
+  let result = 1;
+
+  // let result2 = 0;
+
+  for (let i = 0; i < n; i++) {
+    result *= x;
+  }
+
+  // while (n > 0) {
+  //   result2 = x ** n;
+  //   break;
+  // }
+
+  return console.log(result);
+}
+
+powerOfNumber(2.5, 3);

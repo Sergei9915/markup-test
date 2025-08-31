@@ -86,7 +86,7 @@ for (let key of arr7) {
 
 const arr8 = [1, 2, 3, 4];
 
-const initialLength = arr8.length; // arr8.lenngth ↓
+const initialLength = arr8.length; // arr8.length ↓
 
 // we can't do it directly, it will be an endless loop ↓
 
@@ -166,12 +166,12 @@ sumArr(33412);
 /* additional task #2 */
 
 function reciprocalNumber(number) {
-  const srtingOfNumber = String(number);
+  const srtOfNumber = String(number);
 
   let result = "";
 
-  for (let i = srtingOfNumber.length - 1; i >= 0; i--) {
-    result += srtingOfNumber[i];
+  for (let i = srtOfNumber.length - 1; i >= 0; i--) {
+    result += srtOfNumber[i];
   }
 
   console.log("additional task #2", +result);

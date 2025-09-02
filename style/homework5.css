@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box-red {
+  background-color: red;
+}
+
+.for__formcontent {
+  height: 400px;
+  background: #e5c1c1;
+}
+
+.for__formcontent form {
+  display: block;
+  margin: 0 auto;
+}
+
+.for__formcontent form input {
+  width: 200px !important;
+}
+
+.form-label {
+  color: rgb(247, 244, 244) !important;
+  font-size: 15px !important;
+  text-align: center;
+}
+
+.form-text {
+  font-size: 12px;
+  color: white;
+}
+
+.logo_svgFile:hover {
+  cursor: pointer;
+}
+
+.logo_svgFile svg {
+  color: red;
+}
+
+.form-mb-user {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+  height: 600px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(203, 64, 90, 1) 60%, rgba(0, 212, 255, 1) 100%);
+  border-radius: 10px;
+  box-shadow: 10px 2px -3px 4px yellow;
+}
+
+.form-mb-user input {
+  margin: 0 auto;
+  width: 50% !important;
+  display: block;
+}
+
+.form-mb-user button {
+  margin: 0 auto;
+  display: block;
+}
+
+.form-check {
+  width: 150px;
+  margin-left: 150px;
+  padding: 5px;
+}
+
+.form-check-label {
+  margin: 10px;
+  color: white;
+}
+
+.spinner-block {
+  margin: 20px;
+  display: none;
+}

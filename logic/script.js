@@ -24,5 +24,6 @@ let expect = function (val) {
   };
 };
 
-expect(5).toBe(2); // Not Equal
-expect(5).notToBe(10); // true
+// expect(5).toBe(2); // Not Equal
+// expect(5).notToBe(10); // true
+

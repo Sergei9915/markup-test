@@ -30,3 +30,23 @@ function dataSubmit() {
     inputPassword.classList.add("error");
   }
 }
+
+// const inputForm = document.querySelectorAll("#login-form input");
+
+// function dataSubmit() {
+//   const isNameValid = new RegExp(/^[a-zA-Zа-яА-ЯёЁ]+$/);
+//   const isNumberValid = new RegExp(/^[0-9]+$/);
+
+//   for (let i = 0; i < inputForm.length - 1; i++) {
+//     if (inputForm[i].id === "name") {
+//       isNameValid.test(inputForm[i].value)
+//         ? inputForm[i].classList.replace("error", "validTwo")
+//         : inputForm[i].classList.replace("validTwo", "error");
+//     }
+//     if (inputForm[i].id === "password") {
+//       isNumberValid.test(inputForm[i].value)
+//         ? inputForm[i].classList.replace("error", "validTwo")
+//         : inputForm[i].classList.replace("validTwo", "error");
+//     }
+//   }
+// }
